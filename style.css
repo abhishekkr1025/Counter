@@ -1,0 +1,35 @@
+.container h1{
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.btn-container{
+    /* top: 60; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+.btn{
+    top: 60%;
+    background-color: red;
+    border: 3px solid white;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
